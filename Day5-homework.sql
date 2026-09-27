@@ -3,7 +3,7 @@ SELECT DISTINCT city FROM STATION
 WHERE id%2=0
 -- Bài tập 2: Weather Observation Station 4
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY) AS difference FROM STATION
--- Bài tập 3:
+-- Bài tập 3: (save for later)
 -- Bài tập 4: Compressed Mean
 SELECT
 ROUND(CAST(SUM(item_count * order_occurrences) AS DECIMAL) / SUM(order_occurrences),1) AS mean
